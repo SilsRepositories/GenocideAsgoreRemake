@@ -1,0 +1,22 @@
+if (global.debug == 1)
+{
+	depth = -10000
+	draw_set_alpha(0.7)
+	draw_set_color(c_black)
+	draw_rectangle(0, 0, 250, 250, false)
+	draw_set_color(c_lime)
+	draw_set_font(fnt_dotum)
+	draw_set_alpha(1)
+	draw_text(10, 10, "HP: " + string(global.hp))
+	draw_text(10, 30, "NAME: " + string(global.name))
+	draw_text(10, 50, "DEATHS: " + string(global.deaths))
+	draw_text(10, 70, "ASGORE HP: " + string(global.bosshp))
+	draw_text(10, 90, "ASGORE MAX HP: " + string(global.bossmaxhp))
+	draw_text(10, 110, "ASGORE PISSED: " + string(global.asgorepissed))
+	draw_text(10, 130, "WAVE: " + string(global.wave))
+	draw_text(10, 150, "X: " + string(global.px))
+	draw_text(10, 170, "Y: " + string(global.py))
+	draw_text(10, 190, "CLASSIC MODE: " + string(global.classicmode))
+	draw_text(10, 210, "DAMAGE TAKEN: " + string(global.damagetaken))
+	draw_text(10, 230, "HP HEALED: " + string(global.hphealed))
+}

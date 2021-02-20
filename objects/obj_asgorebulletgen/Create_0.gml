@@ -1,0 +1,11 @@
+wave = 0
+timer = 0
+origin1x = 0
+origin2x = 640
+bulletwaves = 0
+siner = 0
+wavefireshot = 0
+dir = 1
+totalwarnings = 0
+dirchange = 0
+blackalpha = 0

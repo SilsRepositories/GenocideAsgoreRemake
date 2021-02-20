@@ -1,0 +1,6 @@
+side = choose(-70, 725)
+bar = instance_create_depth(side, y - 4, -1000000, obj_targetbar)
+if (side == -70)
+	bar.hspeed = 15 * (30 / room_speed)
+if (side == 725)
+	bar.hspeed = -15 * (30 / room_speed)

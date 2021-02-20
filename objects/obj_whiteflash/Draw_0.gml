@@ -1,0 +1,6 @@
+draw_set_color(c_white)
+draw_set_alpha(sin(siner))
+siner += 0.15 * (30 / room_speed)
+if (siner > 4)
+	instance_destroy()
+draw_rectangle(-100, -100, 750, 750, false)

@@ -1,0 +1,9 @@
+char = 1
+text = ""
+doesdespawn = false
+writing = true
+str = ""
+color = c_black
+addon = 0
+key = ""
+framenum = 0

@@ -1,0 +1,10 @@
+width = 300
+height = 200
+global.borderwidth = 570
+global.borderheight = 140
+depth = -100
+global.hp = 99
+global.maxhp = 99
+global.lv = 20
+writer = 0
+instawriter = 0
